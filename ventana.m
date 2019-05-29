@@ -49,7 +49,7 @@ function ventana_OpeningFcn(hObject, eventdata, handles, varargin)
 global ima
 im = imread('perros.jpg');
 [filas,columnas,z] = size(im);
-n = 3;          m = 4;
+n = 3;          m = 5;
 ancho = floor(columnas/m);
 alto  = floor(filas/n);
 ns    = randperm(n*m);
